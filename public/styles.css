@@ -1,0 +1,46 @@
+body {
+    background-color: #fff9eb;
+    background-image: url(./img/light-wool.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 28px;
+    color: #ffcc00ee;
+    text-decoration: none;
+}
+
+.navbar a {
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: none;
+    margin-left: 10px;
+    color:#6b6b6b
+}
+
+.navbar a::before {
+content:'';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 2px;
+background-color: #ffbf00;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
