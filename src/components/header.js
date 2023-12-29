@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 
 function Header(){
@@ -7,13 +7,13 @@ function Header(){
         const d = new Date();
         const time = d.getHours();
         if(time >= 0 && time < 12){
-            return("Good morning.");
+            return("Good morning");
         }
         if(time >= 12 && time < 15){
-            return("Good afternoon.");
+            return("Good afternoon");
         }
         if(time >= 15 && time < 24){
-            return("Good evening.");
+            return("Good evening");
         }
     };
 

@@ -1,46 +1,134 @@
-body {
-    background-color: #fff9eb;
-    background-image: url(./img/light-wool.png);
-    display: flex;
-    flex-direction: column;
-    justify-content: stretch;
-    min-height: 100vh;
+html body{
+margin: 0;
 }
 
-.header {
+body {
+    background-color: #fff2d4;
+    background-image: url(./img/light-wool.png);
+    font-family: 'Jost', sans-serif;
+    color: #e2e2e2d2;
+}
+
+
+h1 {
+    font-size: 25px;
+    color: #004068;
+    text-shadow: 1px 1px 1px rgba(4, 88, 255, 0.203);
+}
+
+a {
+    padding: 5px;
+}
+
+.container {
+    background-image: url(./img/wallpaper1.jpg);
+    background-size:cover;
+    height:75vh;
+    padding-top: 210px;
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0px;
+    margin: 0;
+}
+
+/* .header {
+    display: flex;
+    background-color: #373737;
     top: 0;
-    width: 100%;
+    max-width: 100fv   ;
+    min-width: 100vh;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    padding-bottom: 8px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: rgba(255, 179, 0, 0.302);
+    left: 0px;
+    right: 0px;
+    top: 0px;
+} */
+
+.header {
+    background-color: rgb(255, 187, 0);
+    color: rgb(255, 209, 2);
+    font-family: Century Gothic;
+    padding: 5px;
+    text-align:center;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
 }
 
 .logo {
-    font-size: 28px;
-    color: #ffcc00ee;
+    padding-left: 10px;
+    font-size: 30px;
+    color: #5a5a5a;
     text-decoration: none;
+    text-shadow: 1px 1px 1px rgb(255, 179, 0);
+    font-family: 'Oswald', sans-serif;
 }
 
 .navbar a {
-    font-size: 18px;
-    font-weight: 200;
+    font-size: 13px;
+    font-family: 'Jost', sans-serif;
+    font-weight:bolder;
     text-decoration: none;
     margin-left: 10px;
-    color:#6b6b6b
+    color:#6b6b6b;
+    text-align: end;
 }
 
 .navbar a::before {
-content:'';
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 2px;
-background-color: #ffbf00;
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(-60deg, #ea8532, #cb8b00, #39a6ff);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+}
+
+.profile-pic{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.429) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.quote {
+    font-size: 11px;
+    margin-top: 0;
+    padding: 0;
+    font-style: italic;
 }
 
 .footer {
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    font-size: 10px;
+    align-items: flex-end;
+    height: 60px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
