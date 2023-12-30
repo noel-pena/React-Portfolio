@@ -16,9 +16,7 @@ h1 {
     text-shadow: 1px 1px 1px rgba(4, 88, 255, 0.203);
 }
 
-a {
-    padding: 5px;
-}
+
 
 .container {
     background-image: url(./img/wallpaper1.jpg);
@@ -75,7 +73,7 @@ a {
     font-family: 'Oswald', sans-serif;
 }
 
-.navbar a {
+/* .navbar a {
     font-size: 13px;
     font-family: 'Jost', sans-serif;
     font-weight:bolder;
@@ -83,19 +81,19 @@ a {
     margin-left: 10px;
     color:#6b6b6b;
     text-align: end;
-}
+} */
 
-.navbar a::before {
+/* .navbar a::before {
     content:'';
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 15vh;
     height: 3px;
     background: linear-gradient(-60deg, #ea8532, #cb8b00, #39a6ff);
 	background-size: 400% 400%;
 	animation: gradient 5s ease infinite;
-}
+} */
 
 .profile-pic{
     box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.429) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;    width: 200px;
