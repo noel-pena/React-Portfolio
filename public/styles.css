@@ -3,7 +3,7 @@ margin: 0;
 }
 
 body {
-    #fff2d4    background-image: url(./img/light-wool.png);
+    background-image: url(./img/light-wool.png);
     font-family: 'Jost', sans-serif;
     color: #e2e2e2d2;
 }
@@ -21,8 +21,7 @@ h1 {
     padding: 25px;
     margin: 0;
     padding-bottom: 0;
-}
-
+}  
 
 .container {
     background-image: url(./img/wallpaper1.jpg);
@@ -63,7 +62,7 @@ h1 {
     height: 350px;
     text-align: center;
     margin: 0;
-    background-color: #fff2d4;
+    background-color: #7aa9bbaa;
 }
 
 .container-5 {

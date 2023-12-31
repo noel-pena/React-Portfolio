@@ -4,12 +4,14 @@ import Stack from '@mui/material/Stack';
 import Paper from '@mui/material/Paper';
 import { styled } from '@mui/material/styles';
 import theme from "./theme";
+import { useNavigate } from 'react-router-dom';
 
 
 
 
 function Header(){
     
+
     function tellTime(){
         const d = new Date();
         const time = d.getHours();
@@ -36,9 +38,9 @@ function Header(){
         return (
         <div>
             <Stack direction="row" spacing={2} justifyContent="center">
-                <Button theme={theme} className="button" variant="text" sx={{ color: '#6b6b6b' }} >Contact</Button>
-                <Button theme={theme} variant="text" sx={{ color: '#6b6b6b' }}>GitHub</Button>
-                <Button theme={theme} variant="text" sx={{ color: '#6b6b6b' }} >Resume</Button>
+                <Button theme={theme} variant="text" sx={{ color: '#6b6b6b' }} >Contact</Button>
+                <Button theme={theme} variant="text" sx={{ color: '#6b6b6b' }} href="https://github.com/noel-pena">GitHub</Button>
+                <Button theme={theme} variant="text" sx={{ color: '#6b6b6b' }}>Resume</Button>
             </Stack>
         </div>
         );
