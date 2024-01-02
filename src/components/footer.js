@@ -9,7 +9,7 @@ function Footer(){
     return(
     <div className="footer">
         <footer >
-            Noel Pena, Inc | Copyright © {year}
+            Pena, Inc | Copyright © {year}
         </footer>
     </div>
     )

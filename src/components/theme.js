@@ -7,4 +7,3 @@ const theme = createTheme({
     },
 });
 export default theme;
-console.log ('test')
