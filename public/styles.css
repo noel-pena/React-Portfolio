@@ -2,9 +2,12 @@ html body{
 margin: 0;
 }
 
+p {
+    font-size: 15px;
+}
+
 body {
     background-color: #ffc800;
-    background-image: url("https://www.transparenttextures.com/patterns/diagonales-decalees.png");
     font-family: 'Jost', sans-serif;
 }
 
@@ -64,9 +67,46 @@ h1 {
     text-align:center;
     position: relative;
     padding: 10px;
-
     height: 250px;
 }
+
+.slide-1 {
+    background-image: url('./img/Portfolio/To-do\ app.png');
+    background-size: contain;
+    border-radius: 3%;
+    color: #ebebeb00;
+}
+
+.slide-2 {
+    background-image: url('./img/Portfolio/Programmer\ Quote.png');
+    background-size: contain;
+    border-radius: 3%;
+    color: #ebebeb00;
+
+}
+
+.slide-3 {
+    background-image: url('./img/Portfolio/Drums\ app.png');
+    background-size: contain;
+    border-radius: 3%;
+    color: #ebebeb00;
+}
+
+.slide-4 {
+    background-image: url('./img/Portfolio/GitHub.png');
+    background-size: contain;
+    border-radius: 3%;
+    color: #ebebeb00;
+
+}
+
+#button {
+    width: 100px;
+    background-color: #5a5a5a00;
+    color: #000000;
+    opacity: 50%;
+}
+
 
 /* .header {
     display: flex;
@@ -216,4 +256,35 @@ h1 {
 	100% {
 		background-position: 0% 50%;
 	}
+}
+
+/* new code attempt */
+.slide-1:hover {
+    opacity: 75%;
+    transition: opacity 1s;
+    color: rgb(255, 183, 0);
+    text-align: center;
+    transition: color 1s;
+}
+
+.slide-2:hover {
+    opacity: 75%;
+    transition: opacity 1s;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    transition: color 1s;
+}
+.slide-3:hover {
+    opacity: 75%;
+    transition: opacity 1s;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    transition: color 1s;
+}
+.slide-4:hover {
+    opacity: 75%;
+    transition: opacity 1s;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    transition: color 1s;
 }
