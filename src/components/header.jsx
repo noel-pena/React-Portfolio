@@ -4,6 +4,7 @@ import Paper from '@mui/material/Paper';
 import { styled } from '@mui/material/styles';
 import theme from "./theme";
 import { useNavigate } from 'react-router-dom';
+import { Grid } from '@mui/material';
 
 function Header(){
     const navigate = useNavigate();
@@ -36,13 +37,13 @@ function Header(){
 
     function DirectionStack() {
         return (
-        <div>
+        <Grid xs={12} md={6} sx={{ m: 0, p: 0, minWidth:0 }}>
             <Stack direction="row" spacing={2} justifyContent="center">
                 <Button theme={theme} variant="text" sx={{ color: '#6b6b6b' }} onClick={handleNav} >Contact</Button>
                 <Button theme={theme} variant="text" sx={{ color: '#6b6b6b' }} href="https://github.com/noel-pena">GitHub</Button>
                 <Button theme={theme} variant="text" sx={{ color: '#6b6b6b' }}>Resume</Button>
             </Stack>
-        </div>
+        </Grid>
         );
     }
 

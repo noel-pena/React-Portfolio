@@ -1,7 +1,15 @@
+import Header from "../components/header";
+import Footer from "../components/footer";
+import { Grid } from "@mui/material";
+import { ContactUs } from '../components/form';
+
 export const Contact = () => {
+
     return (
         <>
-        This is some text to make sure the router works.
+        <Header/>
+        <ContactUs/>
+        <Footer/>
         </>
     )
 }

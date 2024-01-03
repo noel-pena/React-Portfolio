@@ -1,3 +1,5 @@
+import * as React from "react"
+
 function Footer(){
     
     const d = new Date();
@@ -5,7 +7,7 @@ function Footer(){
 
     return(
     <div className="footer">
-        <footer >
+        <footer>
             Noel Pena, Inc | Copyright © {year}
         </footer>
     </div>
