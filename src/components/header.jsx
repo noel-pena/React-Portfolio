@@ -41,7 +41,7 @@ function Header(){
             <Stack direction="row" spacing={2} justifyContent="center">
                 <Button theme={theme} variant="text" sx={{ color: '#6b6b6b' }} onClick={handleNav} >Contact</Button>
                 <Button theme={theme} variant="text" sx={{ color: '#6b6b6b' }} href="https://github.com/noel-pena">GitHub</Button>
-                <Button theme={theme} variant="text" sx={{ color: '#6b6b6b' }}>Resume</Button>
+                <Button theme={theme} variant="text" sx={{ color: '#6b6b6b' }} href="https://cdn.noel-pena.com/Resume.pdf">Resume</Button>
             </Stack>
         </Grid>
         );
