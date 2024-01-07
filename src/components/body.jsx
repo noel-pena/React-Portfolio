@@ -35,7 +35,7 @@ function Body(){
         <Grid xs={12} md={4}  className="container-2">
                 <h1 className="about">About Me</h1>
             <div className="container-3">
-                <p>My name is Noel Pena and I am web developer. I specialize in Javascript and primarily work with React. On my free time, I am a photography and I photo edit. I am also a music producer in which I primarily work with virtual and live instruments. If you're interested in my work, feel free to contact me. You may also download a copy of my resume under the resume link.</p>
+                <p>My name is Noel Pena and I am a web developer. I code mainly in React.js. On my free time, I am a photographer and also do a lot of photo editing. I am a music producer on the side where I primarily work with virtual and live instruments. If you're interested in my work, please feel free to contact me. You may also download a copy of my resume under the resume link.</p>
             </div>
         </Grid>
         <Grid xs={12} md={4} className="container-4">
