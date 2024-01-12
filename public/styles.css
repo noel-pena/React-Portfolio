@@ -106,6 +106,13 @@ h1 {
     color: #ebebeb00;
 
 }
+.slide-6 {
+    background-image: url('./img/calculator.png');
+    background-size: contain;
+    border-radius: 3%;
+    color: #ebebeb00;
+
+}
 #button {
     width: 100px;
     background-color: #5a5a5a00;
@@ -291,6 +298,14 @@ h1 {
     transition: color 1s;
 }
 .slide-5:hover {
+    opacity: 75%;
+    transition: opacity 1s;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    transition: color 1s;
+}
+
+.slide-6:hover {
     opacity: 75%;
     transition: opacity 1s;
     color: rgb(255, 255, 255);
