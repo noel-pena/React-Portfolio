@@ -69,21 +69,21 @@ h1 {
 }
 
 .slide-1 {
-  background-image: url("./img/Portfolio/To-do\ app.png");
+  background-image: url("./img/Portfolio/To-do app.png");
   background-size: contain;
   border-radius: 3%;
   color: #ebebeb00;
 }
 
 .slide-2 {
-  background-image: url("./img/Portfolio/Programmer\ Quote.png");
+  background-image: url("./img/Portfolio/Programmer Quote.png");
   background-size: contain;
   border-radius: 3%;
   color: #ebebeb00;
 }
 
 .slide-3 {
-  background-image: url("./img/Portfolio/Drums\ app.png");
+  background-image: url("./img/Portfolio/Drums app.png");
   background-size: contain;
   border-radius: 3%;
   color: #ebebeb00;
@@ -96,7 +96,7 @@ h1 {
   color: #ebebeb00;
 }
 .slide-5 {
-  background-image: url("./img/Portfolio/Simon\ Game.png");
+  background-image: url("./img/Portfolio/Simon Game.png");
   background-size: contain;
   border-radius: 3%;
   color: #ebebeb00;
@@ -109,7 +109,7 @@ h1 {
 }
 
 .slide-7 {
-  background-image: url("./img/Portfolio/Tipping\ App.png");
+  background-image: url("./img/Portfolio/Tipping App.png");
   background-size: contain;
   border-radius: 3%;
   color: #ebebeb00;
@@ -121,27 +121,6 @@ h1 {
   opacity: 50%;
 }
 
-/* .header {
-    display: flex;
-    background-color: #373737;
-    top: 0;
-    max-width: 100fv   ;
-    min-width: 100vh;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding-bottom: 8px;
-    border-left: 0px;
-    border-right: 0px;
-    border-top: 0px;
-    border-bottom: 1px;
-    border-style: solid;
-    border-color: rgba(255, 179, 0, 0.302);
-    left: 0px;
-    right: 0px;
-    top: 0px;
-} */
-
 .header {
   background: linear-gradient(-60deg, #ffe437, #ffc800, #ffae00);
   background-size: 400% 400%;
@@ -149,11 +128,6 @@ h1 {
   color: rgb(255, 209, 2);
   font-family: Century Gothic;
   text-align: center;
-  /* position:static;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    height: 100px; */
 }
 
 .logo {
@@ -165,28 +139,6 @@ h1 {
   text-decoration: none;
   font-family: "Oswald", sans-serif;
 }
-
-/* .navbar a {
-    font-size: 13px;
-    font-family: 'Jost', sans-serif;
-    font-weight:bolder;
-    text-decoration: none;
-    margin-left: 10px;
-    color:#6b6b6b;
-    text-align: end;
-} */
-
-/* .navbar a::before {
-    content:'';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 15vh;
-    height: 3px;
-    background: linear-gradient(-60deg, #ea8532, #cb8b00, #39a6ff);
-	background-size: 400% 400%;
-	animation: gradient 5s ease infinite;
-} */
 
 .profile-pic {
   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
