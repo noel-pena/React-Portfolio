@@ -33,7 +33,7 @@ function Body() {
             alt="profile picture"
           />
         </Grid>
-        <Grid item xs={12} md={6}>
+        <Grid item xs={12} md={6} pt={5} my={0}>
           <h1>Full-stack developer.</h1>
           <p className="quote">
             "Hard work beats talent when talent doesn't work hard." - Tim Notke
