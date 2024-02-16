@@ -69,21 +69,21 @@ h1 {
 }
 
 .slide-1 {
-  background-image: url("./img/Portfolio/To-do app.png");
+  background-image: url("./img/Portfolio/To-do.png");
   background-size: contain;
   border-radius: 3%;
   color: #ebebeb00;
 }
 
 .slide-2 {
-  background-image: url("./img/Portfolio/Programmer Quote.png");
+  background-image: url("./img/Portfolio/Quote.png");
   background-size: contain;
   border-radius: 3%;
   color: #ebebeb00;
 }
 
 .slide-3 {
-  background-image: url("./img/Portfolio/Drums app.png");
+  background-image: url("./img/Portfolio/Drums.png");
   background-size: contain;
   border-radius: 3%;
   color: #ebebeb00;
@@ -96,7 +96,7 @@ h1 {
   color: #ebebeb00;
 }
 .slide-5 {
-  background-image: url("./img/Portfolio/Simon Game.png");
+  background-image: url("./img/Portfolio/Simon.png");
   background-size: contain;
   border-radius: 3%;
   color: #ebebeb00;
@@ -109,7 +109,13 @@ h1 {
 }
 
 .slide-7 {
-  background-image: url("./img/Portfolio/Tipping App.png");
+  background-image: url("./img/Portfolio/TippingApp.png");
+  background-size: contain;
+  border-radius: 3%;
+  color: #ebebeb00;
+}
+.slide-8 {
+  background-image: url("./img/Portfolio/Logger.png");
   background-size: contain;
   border-radius: 3%;
   color: #ebebeb00;
@@ -132,9 +138,10 @@ h1 {
 
 .logo {
   padding-top: 10px;
-  padding-left: 10px;
+  padding-left: 50px;
   padding-bottom: 50px;
   font-size: 30px;
+  text-align: center;
   color: #5a5a5a;
   text-decoration: none;
   font-family: "Oswald", sans-serif;
@@ -268,6 +275,13 @@ h1 {
 }
 
 .slide-7:hover {
+  opacity: 75%;
+  transition: opacity 1s;
+  color: rgba(0, 0, 0, 0.72);
+  text-align: center;
+  transition: color 1s;
+}
+.slide-8:hover {
   opacity: 75%;
   transition: opacity 1s;
   color: rgba(0, 0, 0, 0.72);

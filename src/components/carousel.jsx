@@ -13,21 +13,21 @@ const Carousel = () => {
     <CarouselProvider
       naturalSlideWidth={125}
       naturalSlideHeight={125}
-      totalSlides={7}
+      totalSlides={8}
       infinite={true}
     >
       <Slider id="mySlider">
-        <a href="https://github.com/noel-pena/Tipping-app">
+        <a href="https://noel-pena.github.io/Tipping-app/">
           <Slide className="slide slide-7" index={5}>
             Tipping App
           </Slide>
         </a>
-        <a href="https://github.com/noel-pena/Todo-List">
-          <Slide className="slide slide-1" index={0}>
-            To-Do List
+        <a href="https://logger-z7gq.onrender.com">
+          <Slide className="slide slide-8" index={7}>
+            Blogging-App
           </Slide>
         </a>
-        <a href="https://github.com/noel-pena/Random-Programmer-Quote-Generator">
+        <a href="https://random-programmer-quote-generator.onrender.com">
           <Slide className=" slide slide-2" index={1}>
             Random Programmer Quote
           </Slide>
@@ -37,12 +37,17 @@ const Carousel = () => {
             Simon Game
           </Slide>
         </a>
+        <a href="https://github.com/noel-pena/Todo-List">
+          <Slide className="slide slide-1" index={0}>
+            To-Do List
+          </Slide>
+        </a>
         <a href="https://noel-pena.github.io/Drums/">
           <Slide className="slide slide-3" index={3}>
             Drum App
           </Slide>
         </a>
-        <a href="https://github.com/noel-pena/Calculator">
+        <a href="https://noel-pena.github.io/Calculator/">
           <Slide className="slide slide-6" index={4}>
             Calculator
           </Slide>
